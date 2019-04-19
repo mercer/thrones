@@ -1,7 +1,9 @@
 package com.workshop.thrones.contexts.bookie.odd;
 
+import com.workshop.thrones.ddd.DomainEntity;
 import com.workshop.thrones.contexts.bookie.candidate.Candidate;
 
+@DomainEntity
 public class Odd {
     private double value;
     private Candidate candidate;

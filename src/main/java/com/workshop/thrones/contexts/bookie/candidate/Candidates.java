@@ -1,11 +1,11 @@
 package com.workshop.thrones.contexts.bookie.candidate;
 
-import org.springframework.stereotype.Service;
+import com.workshop.thrones.ddd.DomainRepository;
 
 import java.util.Set;
 
-@Service
-public class CandidateRepository {
+@DomainRepository
+public class Candidates {
     public Set<Candidate> all() {
         return Set.of(Candidate.values());
     }
