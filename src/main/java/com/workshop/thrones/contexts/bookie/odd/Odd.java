@@ -1,4 +1,6 @@
-package com.workshop.thrones;
+package com.workshop.thrones.contexts.bookie.odd;
+
+import com.workshop.thrones.contexts.bookie.candidate.Candidate;
 
 public class Odd {
     private double value;

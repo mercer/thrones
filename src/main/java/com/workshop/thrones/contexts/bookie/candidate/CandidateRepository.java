@@ -1,4 +1,4 @@
-package com.workshop.thrones;
+package com.workshop.thrones.contexts.bookie.candidate;
 
 import org.springframework.stereotype.Service;
 

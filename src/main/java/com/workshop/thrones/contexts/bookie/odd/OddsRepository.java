@@ -1,5 +1,6 @@
-package com.workshop.thrones;
+package com.workshop.thrones.contexts.bookie.odd;
 
+import com.workshop.thrones.contexts.bookie.candidate.Candidate;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
