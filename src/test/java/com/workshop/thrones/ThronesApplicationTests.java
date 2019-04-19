@@ -20,4 +20,9 @@ class ThronesApplicationTests {
         assertThat(app.retrieveAllCandidates()).contains(Candidate.BRONN);
     }
 
+    @Test
+    void should_retrieve_all_odds() {
+        assertThat(app.retrieveAllOdds()).isNotEmpty();
+    }
+
 }

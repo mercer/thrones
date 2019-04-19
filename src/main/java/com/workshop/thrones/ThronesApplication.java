@@ -9,9 +9,11 @@ import java.util.Set;
 public class ThronesApplication {
 
     private CandidateRepository candidateRepository;
+    private OddsRepository oddsRepository;
 
-    public ThronesApplication(CandidateRepository candidateRepository) {
+    public ThronesApplication(CandidateRepository candidateRepository, OddsRepository oddsRepository) {
         this.candidateRepository = candidateRepository;
+        this.oddsRepository = oddsRepository;
     }
 
     public static void main(String[] args) {
@@ -20,5 +22,9 @@ public class ThronesApplication {
 
     public Set<Candidate> retrieveAllCandidates() {
         return candidateRepository.all();
+    }
+
+    public Set<Odd> retrieveAllOdds() {
+        return oddsRepository.all();
     }
 }
